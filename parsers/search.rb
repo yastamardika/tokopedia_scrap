@@ -1,3 +1,4 @@
 html = Nokogiri.HTML(content)
 
-p html
+products = html.css('.css-jza1fo')
+p products
